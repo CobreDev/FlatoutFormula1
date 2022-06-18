@@ -10,7 +10,7 @@ import Foundation
 import Combine
 
 class SelectYearViewModel {
-    static var yearValueSubject = CurrentValueSubject<Int, Never>(2019)
+    static var yearValueSubject = CurrentValueSubject<Int, Never>(2022)
     
     @Published var dataSource = [Season]()
     

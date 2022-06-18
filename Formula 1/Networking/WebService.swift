@@ -3,7 +3,7 @@
 //  Formula 1
 //
 //  Created by Gio on 11/1/19.
-//  Copyright © 2019 Gio. All rights reserved.
+//  Copyright © 2022 Gio. All rights reserved.
 //
 
 import Foundation
@@ -32,7 +32,7 @@ extension WebService {
                 .eraseToAnyPublisher()
     }
     
-    static func fetch<T: Decodable>(_ subPath: Path, for year: Int? = 2019) -> AnyPublisher<T, PublisherError> {
+    static func fetch<T: Decodable>(_ subPath: Path, for year: Int? = 2022) -> AnyPublisher<T, PublisherError> {
         let url = Endpoint(subPath, for: year).url!
         return
             dataTask(url)

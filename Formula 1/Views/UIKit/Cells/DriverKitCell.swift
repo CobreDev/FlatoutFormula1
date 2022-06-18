@@ -2,7 +2,7 @@
 //  Formula 1
 //
 //  Created by Gio on 11/15/19.
-//  Copyright © 2019 Gio. All rights reserved.
+//  Copyright © 2022 Gio. All rights reserved.
 //
 
 import UIKit
@@ -20,7 +20,7 @@ class DriverKitCell: UITableViewCell {
     
     private lazy var constructorLabel: UILabel = {
         let label = UILabel()
-        label.font = UIFont.Formula1Font.Regular
+        label.font = UIFont.Formula1Font.Bold
         return label
     }()
     
@@ -96,28 +96,29 @@ extension DriverKitCell {
     
     func constructorColor(for constructor: String) -> UIColor {
         switch constructor {
-        case "Mercedes":
-            return .Mercedes
-        case "Ferrari":
-            return .Ferrari
         case "Red Bull":
             return .Redbull
+        case "Ferrari":
+            return .Ferrari
+        case "Mercedes":
+            return .Mercedes
         case "McLaren":
             return .McLaren
-        case "Racing Point":
-            return .RacingPoint
-        case "Renault":
-            return .Renault
-        case "Toro Rosso":
-            return .Redbull
-        case "Williams":
-            return .Williams
+        case "Alpine F1 Team":
+            return .Alpine
         case "Alfa Romeo":
-            return .AlfaRomeo
+            return .AlphaRomeo
+        case "AlphaTauri":
+            return .AlphaTauri
         case "Haas F1 Team":
             return .Haas
+        case "Aston Martin":
+            return .AstonMartin
+        case "Williams":
+            return .Williams
         default:
-            return .systemYellow
+            return .systemPurple
+
         }
     }
 }

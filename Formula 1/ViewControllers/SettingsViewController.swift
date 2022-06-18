@@ -12,7 +12,7 @@ import SwiftUI
 class SettingsViewModel: ObservableObject {
     static let shared = SettingsViewModel()
     
-    @Published var year = "2019"
+    @Published var year = "2022"
 }
 
 struct SettingsCell: View {

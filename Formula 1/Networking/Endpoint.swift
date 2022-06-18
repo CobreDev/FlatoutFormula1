@@ -3,7 +3,7 @@
 //  Formula 1
 //
 //  Created by Gio on 11/3/19.
-//  Copyright © 2019 Gio. All rights reserved.
+//  Copyright © 2022 Gio. All rights reserved.
 //
 
 import Foundation
@@ -18,7 +18,7 @@ enum Path: String {
     case raceStandings = "/current/results.json"
     case seasons = "/seasons.json"
     
-    func path(for year: Int = 2019) -> String {
+    func path(for year: Int = 2022) -> String {
         switch self {
         case .circuits:
             return "/\(year)/circuits.json"
@@ -42,8 +42,8 @@ enum Path: String {
 struct Endpoint {
     private (set) var path = "/api/f1"
     
-    init(_ subPath: Path, for year: Int? = 2019) {
-        path.append(subPath.path(for: year ?? 2019))
+    init(_ subPath: Path, for year: Int? = 2022) {
+        path.append(subPath.path(for: year ?? 2022))
     }
 }
 

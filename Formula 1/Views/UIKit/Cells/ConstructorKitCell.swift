@@ -3,7 +3,7 @@
 //  Formula 1
 //
 //  Created by Gio on 11/5/19.
-//  Copyright © 2019 Gio. All rights reserved.
+//  Copyright © 2022 Gio. All rights reserved.
 //
 
 import Foundation
@@ -16,7 +16,7 @@ class ConstructorKitCell: UICollectionViewCell {
         let label = UILabel()
         label.font = UIFont.Formula1Font.Regular
         label.adjustsFontForContentSizeCategory = true
-        #warning("TODO: Use Localized string")
+        // #warning("TODO: Use Localized string")
         label.text = "Position"
         
         return label
@@ -68,7 +68,7 @@ class ConstructorKitCell: UICollectionViewCell {
         let label = UILabel()
         label.font = UIFont.Formula1Font.Regular
         label.adjustsFontForContentSizeCategory = true
-        #warning("TODO: Use Localized string")
+        // #warning("TODO: Use Localized string")
         label.text = "Points"
         return label
     }()
@@ -96,7 +96,7 @@ class ConstructorKitCell: UICollectionViewCell {
     private lazy var winsTextLabel: UILabel = {
         let label = UILabel()
         label.font = UIFont.Formula1Font.Regular
-        #warning("TODO: Use Localized string")
+        // #warning("TODO: Use Localized string")
         label.text = "Wins"
         return label
     }()

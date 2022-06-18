@@ -3,7 +3,7 @@
 //  Formula 1
 //
 //  Created by Gio on 11/2/19.
-//  Copyright © 2019 Gio. All rights reserved.
+//  Copyright © 2022 Gio. All rights reserved.
 //
 
 import Foundation
@@ -20,7 +20,7 @@ class DriversViewModel {
     
     var count: Int { dataSource.count }
     
-    var sectionYearHeader = "2019"
+    var sectionYearHeader = "2022"
    
     // MARK: - Fetchable Delegate
     weak var delegate: Fetchable?
@@ -28,7 +28,7 @@ class DriversViewModel {
     // MARK: - Lifecycle
     init() {
         cancellable = []
-        fetchData(for: 2019)
+        fetchData(for: 2022)
     }
     
     func fetchData(for year: Int?) {

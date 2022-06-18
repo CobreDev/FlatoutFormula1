@@ -3,20 +3,20 @@
 //  Formula 1
 //
 //  Created by Gio on 11/29/19.
-//  Copyright © 2019 Gio. All rights reserved.
+//  Copyright © 2022 Gio. All rights reserved.
 //
 
 import UIKit
 
 extension UIColor {
-    static let Mercedes = UIColor(red: 0, green: 210 / 255, blue: 190 / 255, alpha: 1) // RGBA(0, 210, 190, 1)
-    static let Ferrari = UIColor(red: 220 / 255, green: 0, blue: 0, alpha: 1) // RGBA(220, 0, 0, 1)
-    static let Redbull = UIColor(red: 30 / 255, green: 65 / 255, blue: 255 / 255, alpha: 1) // RGBA(30, 65, 255, 1)
-    static let McLaren = UIColor(red: 255 / 255, green: 135 / 255, blue: 0, alpha: 1) // RGBA(255, 135, 0, 1)
-    static let Renault = UIColor(red: 255 / 255, green: 245 / 255, blue: 0, alpha: 1)//  RGBA(255, 245, 0, 1)
-    static let ToroRosso = UIColor(red: 70 / 255, green: 155 / 255, blue: 255 / 255, alpha: 1)// RGBA(70, 155, 255, 1)
-    static let RacingPoint = UIColor(red: 245 / 255, green: 150 / 255, blue: 200 / 255, alpha: 1)// RGBA(245, 150, 200, 1)
-    static let AlfaRomeo = UIColor(red: 155 / 255, green: 0, blue: 0, alpha: 1) // RGBA(155, 0, 0, 1)
-    static let Haas = UIColor(red: 189 / 255, green: 158 / 255, blue: 87 / 255, alpha: 1) // RGBA(189, 158, 87, 1)
-    static let Williams = UIColor(red: 0 / 255, green: 153 / 255, blue: 255 / 255, alpha: 1) // RGBA(0, 0, 0, 1)
+    static let Redbull = UIColor(red: 0.27, green: 0.44, blue: 0.75, alpha: 1.00)
+    static let Ferrari = UIColor(red: 0.90, green: 0.22, blue: 0.25, alpha: 1.00)
+    static let Mercedes = UIColor(red: 0.53, green: 0.82, blue: 0.75, alpha: 1.00)
+    static let McLaren = UIColor(red: 0.90, green: 0.53, blue: 0.23, alpha: 1.00)
+    static let Alpine = UIColor(red: 0.29, green: 0.57, blue: 0.80, alpha: 1.00)
+    static let AlphaRomeo = UIColor(red: 0.73, green: 0.24, blue: 0.31, alpha: 1.00)
+    static let AlphaTauri = UIColor(red: 0.41, green: 0.56, blue: 0.65, alpha: 1.00)
+    static let Haas = UIColor(red: 0.72, green: 0.73, blue: 0.74, alpha: 1.00)
+    static let AstonMartin = UIColor(red: 0.31, green: 0.54, blue: 0.46, alpha: 1.00)
+    static let Williams = UIColor(red: 0.38, green: 0.73, blue: 0.85, alpha: 1.00)
 }
